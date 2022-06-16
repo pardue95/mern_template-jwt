@@ -1,0 +1,27 @@
+{
+  "name": "mern-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "start": "react-scripts start",
+    "test": "react-scripts test",
+    "build": "react-scripts build",
+    "eject": "react-scripts eject"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "apollo-server-express": "^3.9.0",
+    "bcrypt": "^5.0.1",
+    "express": "^4.17.1",
+    "faker": "^4.1.0",
+    "graphql": "^16.5.0",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^6.3.8"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.3"
+  }
+}
